@@ -1,0 +1,101 @@
+#VRML_OBJ R2019a utf8
+Pioneer2_final {
+  translation 0 0 -9.05
+  rotation 0 1 0 3.14
+  controller "fool_controller"
+  extensionSlot [
+    DEF FORWARD_CAMERA Camera {
+      translation 0 0.255 -0.155
+      children [
+        Transform {
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 1 1 0
+                }
+              }
+              geometry Box {
+                size 0.02 0.02 0.03
+              }
+            }
+          ]
+        }
+      ]
+      name "camera_f"
+      fieldOfView 0.8
+      width 240
+      height 160
+      antiAliasing TRUE
+    }
+    DEF SPHERICAL_CAMERA Camera {
+      translation 0.025 0.44 -0.05
+      rotation 1 0 0 -1.5708
+      children [
+        DEF LENS Shape {
+          appearance Appearance {
+            material Material {
+              ambientIntensity 0.4
+              diffuseColor 0 0 0
+              shininess 0.8
+              specularColor 1 1 1
+            }
+          }
+          geometry Sphere {
+            radius 0.005
+            subdivision 2
+          }
+        }
+        DEF STRUCTURE_AXES Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0 0 0
+            }
+          }
+          geometry IndexedLineSet {
+            coord Coordinate {
+              point [
+                0 0 0.02
+                0.06 0 -0.2
+                -0.06 0 -0.2
+                0 0.06 -0.2
+                0 -0.05 -0.2
+              ]
+            }
+            coordIndex [
+              0, 1, 0, 2, 0, 3, 0, 4
+            ]
+          }
+        }
+        DEF CAMERA_SHAPE Transform {
+          translation 0 0 0.01
+          rotation 1 0 0 1.57
+          children [
+            DEF CAMERA_OUTLINE Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 1 1 0
+                }
+              }
+              geometry Cylinder {
+                height 0.02
+                radius 0.008
+              }
+            }
+          ]
+        }
+      ]
+      name "camera_s"
+      fieldOfView 3.1415
+      width 160
+      height 160
+      spherical TRUE
+      antiAliasing TRUE
+    }
+    GPS {
+      resolution 3
+    }
+    Compass {
+    }
+  ]
+}

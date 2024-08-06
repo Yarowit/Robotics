@@ -1,0 +1,1936 @@
+#VRML_SIM R2019a utf8
+WorldInfo {
+  info [
+    "The model of the Pioneer 2 robot"
+    "Author: Simon Blanchoud"
+    "Date: 02 SEP 2006"
+  ]
+  title "Pioneer 2"
+}
+Viewpoint {
+  orientation -0.5094873405403066 -0.6887369507303992 -0.515813980547016 1.9418934
+  position -8.6885435 31.967301 1.5685876
+}
+Background {
+  skyColor [
+    0.4 0.7 1
+  ]
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location 3 6 5
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location -3 6 5
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location -3 6 -5
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location 3 6 -5
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location 3 6 -10
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location -3 6 -10
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location -3 6 10
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location 3 6 10
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location 6 6 10
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location 6 6 5
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location 6 6 0
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location 6 6 -5
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location 6 6 -10
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location -6 6 -10
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 0.3
+  location -6 6 -5
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location -6 6 0
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location -6 6 5
+  radius 1000
+}
+PointLight {
+  attenuation 0 0 12.56
+  intensity 50
+  location -6 6 10
+  radius 1000
+}
+DEF LARGE_BOX Solid {
+  translation 0.565314 0.3 5.78096
+  rotation 0 1 0 2.9
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid0"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation 3.97853 0.3 -0.850439
+  rotation 0 1 0 5.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid00"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation 4.53712 0.3 -1.05424
+  rotation 0 1 0 5.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid1"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation 3.93602 0.3 -0.396146
+  rotation 0 1 0 1.2
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid50"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation 3.60935 0.3 -1.54813
+  rotation 0 1 0 5.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid2"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation -0.304094 0.3 4.83143
+  rotation 0 1 0 5.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid3"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation 0.106129 0.3 5.35861
+  rotation 0 1 0 0.23
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid51"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation -0.247307 0.3 6.29406
+  rotation 0 1 0 6.7
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid52"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation 0.548772 0.3 6.25681
+  rotation 0 1 0 5.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid37"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation -4.02594 0.3 -4.61483
+  rotation 0 1 0 6.7
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid38"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation -4.59382 0.3 -5.03462
+  rotation 0 1 0 5.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid39"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation -2.57207 0.3 -6.07095
+  rotation 0 1 0 5.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid40"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation -3.38061 0.3 -6.9515
+  rotation 0 1 0 3.4
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid53"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation -3.00334 0.3 -6.15391
+  rotation 0 1 0 7.8
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid54"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation 2.75496 0.3 -5.03812
+  rotation 0 1 0 5.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid41"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation 3.23646 0.3 -5.77802
+  rotation 0 1 0 0.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid55"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation 3.62548 0.3 -6.12489
+  rotation 0 1 0 6.5
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid56"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation 2.73639 0.3 -5.6511
+  rotation 0 1 0 5.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid57"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation 2.34371 0.3 -5.99808
+  rotation 0 1 0 2.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid58"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation -1.24023 0.3 -3.72242
+  rotation 0 1 0 5.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid59"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation -1.04914 0.3 -3.17115
+  rotation 0 1 0 4.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid60"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation -1.79387 0.3 -3.67867
+  rotation 0 1 0 5.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid61"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF LARGE_BOX Solid {
+  translation -2.47208 0.3 -6.82767
+  rotation 0 1 0 5.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.6 0.6 0.6
+      }
+    }
+  ]
+  name "solid62"
+  boundingObject Box {
+    size 0.6 0.6 0.6
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation 0.178365 0.2 6.40173
+  rotation 0 1 0 9.4
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid63"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation -0.702812 0.2 6.43231
+  rotation 0 1 0 0.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid5"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation -0.384799 0.2 5.34712
+  rotation 0 1 0 0.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid6"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation 3.54852 0.2 -0.118928
+  rotation 0 1 0 0.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid7"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation 3.54852 0.2 -0.118928
+  rotation 0 1 0 0.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid43"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation 4.2987 0.2 -0.413393
+  rotation 0 1 0 0.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid44"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation 4.60661 0.2 -0.263817
+  rotation 0 1 0 1.6
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid64"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation 3.81702 0.2 -1.32142
+  rotation 0 1 0 0.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid8"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation 4.17622 0.2 -1.27298
+  rotation 0 1 0 0.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid45"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation -1.5945 0.2 -3.40178
+  rotation 0 1 0 0.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid46"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation 3.89456 0.2 -6.34488
+  rotation 0 1 0 0.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid65"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation 2.06223 0.2 -6.319
+  rotation 0 1 0 0.7
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid66"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation 3.17481 0.2 -5.30483
+  rotation 0 1 0 3.4
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid67"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation -1.98205 0.2 -4.15405
+  rotation 0 1 0 0.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid68"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation -3.0177 0.2 -6.97217
+  rotation 0 1 0 0.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid69"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation -2.87526 0.2 -6.73859
+  rotation 0 1 0 0.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid70"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation -3.2607 0.2 -6.49343
+  rotation 0 1 0 0.3
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid71"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation -4.57485 0.2 -4.6087
+  rotation 0 1 0 0.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid72"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+DEF SMALL_BOX Solid {
+  translation -4.09181 0.2 -4.95115
+  rotation 0 1 0 0.1
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.4 0.4 0.4
+      }
+    }
+  ]
+  name "solid73"
+  boundingObject Box {
+    size 0.4 0.4 0.4
+  }
+  locked TRUE
+}
+Solid {
+  translation 4.9 1 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 20
+      }
+    }
+  ]
+  name "solid10"
+  boundingObject Box {
+    size 0.2 2 20
+  }
+  locked TRUE
+}
+Solid {
+  translation -4.9 1 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 20
+      }
+    }
+  ]
+  name "solid11"
+  boundingObject Box {
+    size 0.2 2 20
+  }
+  locked TRUE
+}
+Solid {
+  translation 0 1 -9.9
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 10
+      }
+    }
+  ]
+  name "solid12"
+  boundingObject Box {
+    size 0.2 2 10
+  }
+  locked TRUE
+}
+Solid {
+  translation 0.00669809 1 -3.58418
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 1.5
+      }
+    }
+  ]
+  name "solid13"
+  boundingObject Box {
+    size 0.2 2 1.5
+  }
+  locked TRUE
+}
+Solid {
+  translation -4.17203 1 7.52829
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 1.5
+      }
+    }
+  ]
+  name "solid48"
+  boundingObject Box {
+    size 0.2 2 1.5
+  }
+  locked TRUE
+}
+Solid {
+  translation 3.5 1 4.36957
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Cylinder {
+        radius 0.2
+      }
+    }
+  ]
+  name "solid15"
+  boundingObject Cylinder {
+    radius 0.2
+  }
+  locked TRUE
+}
+Solid {
+  translation 3.5 1 6.17259
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Cylinder {
+        radius 0.2
+      }
+    }
+  ]
+  name "solid16"
+  boundingObject Cylinder {
+    radius 0.2
+  }
+  locked TRUE
+}
+Solid {
+  translation 0.687688 1 -5.10066
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Cylinder {
+        radius 0.2
+      }
+    }
+  ]
+  name "solid17"
+  boundingObject Cylinder {
+    radius 0.2
+  }
+  locked TRUE
+}
+Solid {
+  translation 2.99748 1 -4.71196
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Cylinder {
+        radius 0.2
+      }
+    }
+  ]
+  name "solid18"
+  boundingObject Cylinder {
+    radius 0.2
+  }
+  locked TRUE
+}
+Solid {
+  translation 4.25 1 -6.5
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 1.5
+      }
+    }
+  ]
+  name "solid19"
+  boundingObject Box {
+    size 0.2 2 1.5
+  }
+  locked TRUE
+}
+Solid {
+  translation -2.14458 1 4.18393
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 7 2 0.2
+      }
+    }
+  ]
+  name "solid20"
+  boundingObject Box {
+    size 7 2 0.2
+  }
+  locked TRUE
+}
+Solid {
+  translation -3.51636 1 5.11904
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 5 2 0.2
+      }
+    }
+  ]
+  name "solid21"
+  boundingObject Box {
+    size 5 2 0.2
+  }
+  locked TRUE
+}
+Solid {
+  translation 0.449193 1 -0.0476483
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 3 2 0.2
+      }
+    }
+  ]
+  name "solid22"
+  boundingObject Box {
+    size 3 2 0.2
+  }
+  locked TRUE
+}
+Solid {
+  translation 3.31756 1 -0.0472284
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 3 2 0.2
+      }
+    }
+  ]
+  name "solid24"
+  boundingObject Box {
+    size 3 2 0.2
+  }
+  locked TRUE
+}
+Solid {
+  translation -2.11985 1 -5.08762
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 3 2 0.2
+      }
+    }
+  ]
+  name "solid25"
+  boundingObject Box {
+    size 3 2 0.2
+  }
+  locked TRUE
+}
+Solid {
+  translation -0.149994 1 3.37601
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 2 2 0.2
+      }
+    }
+  ]
+  name "solid26"
+  boundingObject Box {
+    size 2 2 0.2
+  }
+  locked TRUE
+}
+Solid {
+  translation -0.149994 1 3.37601
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 2 2 0.2
+      }
+    }
+  ]
+  name "solid27"
+  boundingObject Box {
+    size 2 2 0.2
+  }
+  locked TRUE
+}
+Solid {
+  translation -1.12501 1 6.4996
+  rotation 0 1 0 2.4
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 3
+      }
+    }
+  ]
+  name "solid28"
+  boundingObject Box {
+    size 0.2 2 3
+  }
+  locked TRUE
+}
+Solid {
+  translation 1.43639 1 6.96537
+  rotation 0 1 0 0.7
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 1.8
+      }
+    }
+  ]
+  name "solid29"
+  boundingObject Box {
+    size 0.2 2 1.8
+  }
+  locked TRUE
+}
+Solid {
+  translation -2.98976 1 -0.717773
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 4
+      }
+    }
+  ]
+  name "solid30"
+  boundingObject Box {
+    size 0.2 2 4
+  }
+  locked TRUE
+}
+Solid {
+  translation 2.81996 1 2.80978
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 1.75
+      }
+    }
+  ]
+  name "solid31"
+  boundingObject Box {
+    size 0.2 2 1.75
+  }
+  locked TRUE
+}
+Solid {
+  translation 4.04378 1 7.61288
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 1.75
+      }
+    }
+  ]
+  name "solid32"
+  boundingObject Box {
+    size 0.2 2 1.75
+  }
+  locked TRUE
+}
+Solid {
+  translation 3.47857 1 -2.96035
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 3
+      }
+    }
+  ]
+  name "solid33"
+  boundingObject Box {
+    size 0.2 2 3
+  }
+  locked TRUE
+}
+Solid {
+  translation 1.90658 1 -1.46055
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 3
+      }
+    }
+  ]
+  name "solid34"
+  boundingObject Box {
+    size 0.2 2 3
+  }
+  locked TRUE
+}
+Solid {
+  translation 0.75 1 -6.5
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 3
+      }
+    }
+  ]
+  name "solid35"
+  boundingObject Box {
+    size 0.2 2 3
+  }
+  locked TRUE
+}
+DEF PERSON1 Solid {
+  translation 0.294637 0.25 8.40607
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.160784 1 0.054902
+        }
+      }
+      geometry Cylinder {
+        height 0.5
+        radius 0.3
+      }
+    }
+  ]
+  name "person1solid"
+  boundingObject Cylinder {
+    height 0.5
+    radius 0.3
+  }
+  locked TRUE
+}
+DEF PERSON2 Solid {
+  translation 1.09467 0.25 8.62397
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.160784 1 0.054902
+        }
+      }
+      geometry Cylinder {
+        height 0.5
+        radius 0.3
+      }
+    }
+  ]
+  name "person2solid"
+  boundingObject Cylinder {
+    height 0.5
+    radius 0.3
+  }
+  locked TRUE
+}
+DEF STARTLINE Solid {
+  translation 0 0.00125 -8
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 1 0
+          specularColor 1 1 0
+        }
+      }
+      geometry Box {
+        size 0.05 0.0025 10
+      }
+    }
+  ]
+  name "startlinesolid"
+  boundingObject Box {
+    size 1e-06 1e-06 1e-06
+  }
+  locked TRUE
+}
+DEF LINE_M6 Solid {
+  translation 0 0.00125 -6
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+          specularColor 1 1 0
+        }
+      }
+      geometry Box {
+        size 0.05 0.0025 10
+      }
+    }
+  ]
+  name "lineM6solid"
+  boundingObject Box {
+    size 1e-06 1e-06 1e-06
+  }
+  locked TRUE
+}
+DEF LINE_M4 Solid {
+  translation 0 0.00125 -4
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+          specularColor 1 1 0
+        }
+      }
+      geometry Box {
+        size 0.05 0.0025 10
+      }
+    }
+  ]
+  name "lineM4solid"
+  boundingObject Box {
+    size 1e-06 1e-06 1e-06
+  }
+  locked TRUE
+}
+DEF LINE_M2 Solid {
+  translation 0 0.00125 -2
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+          specularColor 1 1 0
+        }
+      }
+      geometry Box {
+        size 0.05 0.0025 10
+      }
+    }
+  ]
+  name "lineM2solid"
+  boundingObject Box {
+    size 1e-06 1e-06 1e-06
+  }
+  locked TRUE
+}
+DEF LINE_0 Solid {
+  translation 0 0.00125 0
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+          specularColor 1 1 0
+        }
+      }
+      geometry Box {
+        size 0.05 0.0025 10
+      }
+    }
+  ]
+  name "lineM0solid"
+  boundingObject Box {
+    size 1e-06 1e-06 1e-06
+  }
+  locked TRUE
+}
+DEF LINE_P2 Solid {
+  translation 0 0.00125 2
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+          specularColor 1 1 0
+        }
+      }
+      geometry Box {
+        size 0.05 0.0025 10
+      }
+    }
+  ]
+  name "lineP2solid"
+  boundingObject Box {
+    size 1e-06 1e-06 1e-06
+  }
+  locked TRUE
+}
+DEF LINE_P4 Solid {
+  translation 0 0.00125 4
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+          specularColor 1 1 0
+        }
+      }
+      geometry Box {
+        size 0.05 0.0025 10
+      }
+    }
+  ]
+  name "lineP4solid"
+  boundingObject Box {
+    size 1e-06 1e-06 1e-06
+  }
+  locked TRUE
+}
+DEF LINE_P6 Solid {
+  translation 0 0.00125 6
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+          specularColor 1 1 0
+        }
+      }
+      geometry Box {
+        size 0.05 0.0025 10
+      }
+    }
+  ]
+  name "lineP6solid"
+  boundingObject Box {
+    size 1e-06 1e-06 1e-06
+  }
+  locked TRUE
+}
+DEF FINISHLINE Solid {
+  translation 0 0.00125 8
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 1 0
+          specularColor 1 1 0
+        }
+      }
+      geometry Box {
+        size 0.05 0.0025 10
+      }
+    }
+  ]
+  name "finishlinesolid"
+  boundingObject Box {
+    size 1e-06 1e-06 1e-06
+  }
+  locked TRUE
+}
+Solid {
+  translation 0 1 9.9
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.4 1 1
+        }
+      }
+      geometry Box {
+        size 0.2 2 10
+      }
+    }
+  ]
+  name "solid36"
+  boundingObject Box {
+    size 0.2 2 10
+  }
+  locked TRUE
+}
+DEF FLOOR Solid {
+  translation 0 -0.05 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.462745 0.462745 0.462745
+        }
+      }
+      geometry Box {
+        size 10 0.1 20
+      }
+    }
+  ]
+  name "floor1solid"
+  boundingObject Box {
+    size 10 0.1 20
+  }
+  locked TRUE
+}
+DEF FLOOR Solid {
+  translation 0 -0.05 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.462745 0.462745 0.462745
+        }
+      }
+      geometry Box {
+        size 10 0.1 20
+      }
+    }
+  ]
+  name "floor2solid"
+  boundingObject Box {
+    size 10 0.1 20
+  }
+  locked TRUE
+}
+Pioneer2_final {
+  translation 0 0 -9.05
+  rotation 0 1 0 3.14
+  controller "base_controller"
+  extensionSlot [
+    DEF FORWARD_CAMERA Camera {
+      translation 0 0.255 -0.155
+      children [
+        Transform {
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 1 1 0
+                }
+              }
+              geometry Box {
+                size 0.02 0.02 0.03
+              }
+            }
+          ]
+        }
+      ]
+      name "camera_f"
+      fieldOfView 0.8
+      width 240
+      height 160
+      antiAliasing TRUE
+    }
+    DEF SPHERICAL_CAMERA Camera {
+      translation 0.025 0.44 -0.05
+      rotation 1 0 0 -1.5708
+      children [
+        DEF LENS Shape {
+          appearance Appearance {
+            material Material {
+              ambientIntensity 0.4
+              diffuseColor 0 0 0
+              shininess 0.8
+              specularColor 1 1 1
+            }
+          }
+          geometry Sphere {
+            radius 0.005
+            subdivision 2
+          }
+        }
+        DEF STRUCTURE_AXES Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0 0 0
+            }
+          }
+          geometry IndexedLineSet {
+            coord Coordinate {
+              point [
+                0 0 0.02
+                0.06 0 -0.2
+                -0.06 0 -0.2
+                0 0.06 -0.2
+                0 -0.05 -0.2
+              ]
+            }
+            coordIndex [
+              0, 1, 0, 2, 0, 3, 0, 4
+            ]
+          }
+        }
+        DEF CAMERA_SHAPE Transform {
+          translation 0 0 0.01
+          rotation 1 0 0 1.57
+          children [
+            DEF CAMERA_OUTLINE Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 1 1 0
+                }
+              }
+              geometry Cylinder {
+                height 0.02
+                radius 0.008
+              }
+            }
+          ]
+        }
+      ]
+      name "camera_s"
+      fieldOfView 3.1415
+      width 160
+      height 160
+      spherical TRUE
+      antiAliasing TRUE
+    }
+    GPS {
+      resolution 3
+    }
+    Compass {
+    }
+  ]
+}
